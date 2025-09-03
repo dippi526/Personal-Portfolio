@@ -1,0 +1,186 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    
+header 
+{
+  width: 100%;
+  background:black;
+  color: antiquewhite;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  padding: 20px 50px;
+}
+
+.navbar
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo
+{
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.link
+{
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.link a 
+{
+  text-decoration: none;
+  color: white;
+  font-weight: 600px;
+  transition: 0.3s ;
+}
+
+a:hover
+{
+  color:cadetblue;
+}
+
+.hero 
+{
+  height: 100vh; /* full screen */
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
+  flex-direction: column;
+  color: black;
+  margin-bottom: 80px;
+}
+
+span
+{
+  color: rgb(33, 159, 164);
+  font-weight: bolder;
+}
+
+.hero-text p 
+{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 20px 0px;
+}
+
+.about
+{
+  width: 100%;
+  padding: 80px 15%;
+  margin-bottom: 80px;
+  text-align: center;
+  background-color: aliceblue;
+  /* background-color: #EEEAFD; */
+}
+
+h2
+{
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+
+h3
+{
+  padding-bottom: 20px;
+  font-weight: 800;
+}
+
+.skill-box
+{
+  box-sizing: border-box;
+  border: #a6c1ee 2px solid;
+  border-radius: 20px;
+  padding: 10px ;
+  margin: 10px ;
+  text-align: center;
+  background-color: aliceblue;
+  /* background-color: #EEEAFD; */
+}
+
+.projects-section
+{
+  width: 100%;
+  padding: 80px 15%;
+  background-color: aliceblue;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.card1
+{
+  box-sizing: border-box;
+  border: #a6c1ee 2px solid;
+  height: 450px;
+  width: auto;
+  border-radius: 20px;
+  padding: 15px ;
+  margin: 10px ;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  /* background-color: #EEEAFD; */
+}
+
+.info-box
+{
+  width: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.skill-section
+{
+  width: 100%;
+  padding: 80px 15%;
+  background-color: aliceblue;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.contact
+{
+  width: 100%;
+  padding: 80px 15%;
+  background-color: aliceblue;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.education-section
+{
+  width: 100%;
+  padding: 80px 15%;
+  background-color: aliceblue;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+footer
+{
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: aliceblue;
+}
+
